@@ -22,7 +22,7 @@
 #### 4. create a directory for the project parallel to venv and cd into that directory
 
 #### 5. clone the repository 
-> **git clone https://github.com/narendra101/todo.git**
+> **git clone https://github.com/satyavenikaruprolu/flask-todo**
 
 #### 6. cd in to install the requirements
 > **pip install -r requirements.txt**
