@@ -1,0 +1,16 @@
+*{
+    background-color: transparent;      
+}
+
+.my-card{
+    background-color: transparent;    
+    color: white;    
+    border-radius: 10px;
+    height: 75vh;
+}
+input{
+    border: solid white 1px;
+    margin: 8px;    
+    border-radius: 6px;
+    color: rgb(236, 235, 252);
+}

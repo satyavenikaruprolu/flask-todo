@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>dashboard</title>
+{% endblock %}
+
+{% block body %}
+<nav class="navbar-dark bg-dark p-2">    
+      <a class="navbar-brand" href="#">
+        <img src="{{ url_for('static', filename='img/user.jpg') }}" alt="" width="40" height="35">
+      </a>          
+    <a href="/todos" class="m-3" style="text-decoration: none">my todos</a>
+    <a href="/add" class="m-3" style="text-decoration: none">add todo</a>
+    <a href="https://github.com/narendra101/todo.git" class="m-3" style="text-decoration: none">get source code</a>   
+    <a href="/logout" class="m-3" style="text-decoration: none">logout</a>
+</nav>
+<div class="container-fluid pt-5 d-flex flex-column">        
+    <div style="opacity: 0.7;" class="m-auto text-light my-card w-75 text-center">
+        <h4>welcome {{data[0]}} {{data[1]}}</h4>
+        <p>it's a todo list developed by the flask micro framework.</p>                        
+    </div>
+</div>
+
+{% endblock %}
